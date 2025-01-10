@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ page.title | default: site.title }}</title>
+</head>
+<body>
+    <header>
+        <h1><a href="{{ "/" | relative_url }}">{{ site.title }}</a></h1>
+        <nav>
+            <ul>
+                <li><a href="/index.md">Home</a></li>
+                <li><a href="/docs/1. introduzionealla sintesi e ai sintetizzatori modulari.md">introduzione alla sintesi e ai sintetizzatori modulari</a></li>
+                <li><a href="/docs/1.5 installazione di VCV rack.md">installazione di VCV rack</a></li>
+                <li><a href="/docs/2. Control Voltage, segnali e manipolazione dei paramteri del suono.md">Control Voltage, segnali e manipolazione dei paramteri del suono.md</a></li>
+                <li><a href="/docs/3. Moduli principali e utilizzo.md">Moduli principali e utilizzo</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        {{ content }}
+    </main>
+    <footer>
+        <p>&copy; {{ site.time | date: "%Y" }}</p>
+    </footer>
+</body>
+</html>

@@ -1,2 +1,9 @@
-title: Modular Synthesis Tutorial!
+title: Getting started with Modular
 theme: jekyll-theme-minimal
+baseurl: /getting-started-with-modular
+show_downloads: true
+github: 
+  zip_url: https://github.com/doriocsetina/getting-started-with-modular/archive/refs/tags/test.zip
+  tar_url: https://github.com/doriocsetina/getting-started-with-modular/archive/refs/tags/test.tar.gz
+  repository_url: https://github.com/doriocsetina/getting-started-with-modular
+  owner_url: https://github.com/doriocsetina

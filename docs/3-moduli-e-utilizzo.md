@@ -6,6 +6,23 @@ permalink: /docs/3-moduli-e-utilizzo
 
 # Moduli principali e loro utilizzo
 
+## Table of Contents
+
+1. [Moduli principali e loro utilizzo](#moduli-principali-e-loro-utilizzo)
+   - [Oscillatori e Forme d'Onda](#oscillatori-e-forme-donda)
+     - [Aggiungere un Secondo Oscillatore](#aggiungere-un-secondo-oscillatore)
+     - [Collegare i Due Oscillatori](#collegare-i-due-oscillatori)
+   - [Filtro](#filtro)
+     - [Introduzione al Filtro](#introduzione-al-filtro)
+     - [Aggiungere un Filtro al Rack](#aggiungere-un-filtro-al-rack)
+   - [Modulo MIDI-to-CV](#modulo-midi-to-cv)
+     - [Cos'è il Volt per Ottava (V/Oct)](#cosè-il-volt-per-ottava-voct)
+     - [Aggiungere il Modulo MIDI-to-CV](#aggiungere-il-modulo-midi-to-cv)
+     - [Configurare il Modulo MIDI-to-CV](#configurare-il-modulo-midi-to-cv)
+   - [Conclusione](#conclusione)
+
+## Introduzione
+
 Nel capitolo precedente abbiamo esplorato i concetti di base del Control Voltage (CV) e abbiamo iniziato a interagire con i moduli di un sintetizzatore modulare. In questo capitolo, costruiremo un sintetizzatore sottrattivo, uno dei tipi più comuni di sintetizzatori. Classicamente i sintetizzatori sottrattivi fanno parte della scuola 'East Coast' americana dei synth. In questo senso, i sintetizzatori east coast si basavano sul prendere un'onda già ricca di armoniche e modellare il suono togliendo, appunto, sottraendo informazioni armoniche per raggiungere il suono desiderato. 
 
 Per fare ciò, aggiungeremo ulteriori oscillatori, descriveremo le diverse forme d'onda, introdurremo un filtro e spiegheremo il modulo MIDI-to-CV per controllare il sintetizzatore tramite una tastiera MIDI o direttamente la nostra tastiera!
@@ -29,7 +46,7 @@ Colleghiamo le uscite dei due oscillatori a un mixer per combinare i loro segnal
 
 Dopo aver collegato i due oscillatori al mixer colleghiamo anche l'envelope all'ingresso CV dei VCA del mixer. Adesso premendo il push dell'envelope potremo sentire il suono dei due oscillatori messi assieme
 
-![due oscillatori](/images/dueoscillatori.png)
+![due oscillatori](../images/dueoscillatori.png)
 
 ## Filtro
 
@@ -47,9 +64,11 @@ Il filtro è un modulo importantissimo ed estremamente versatile per modellare e
 
 Aggiungiamo un filtro passa-basso al nostro rack. Colleghiamo l'uscita del mixer all'ingresso del filtro e l'uscita del filtro all'uscita audio, mettendo il filtro come ultimo step della catena. Possiamo ora utilizzare il CV per controllare il cutoff del filtro, creando effetti di modulazione interessanti.
 
-![filtro](/images/filtro.png)
+![filtro](../images/filtro.png)
 
 ## Modulo MIDI-to-CV
+
+Ora che abbiamo i due oscillatori e il filtro vediamo come il suono che abbiamo creato diventa sempre più definito, tuttavia non abbiamo ancora controllo sulle note. Per darci il controllo diretto sulle note d
 
 ### Cos'è il Volt per Ottava (V/Oct)
 
@@ -61,8 +80,20 @@ Aggiungiamo un modulo MIDI-to-CV al nostro rack. Questo modulo converte i segnal
 
 ### Configurare il Modulo MIDI-to-CV
 
-Configuriamo il modulo MIDI-to-CV per riconoscere la nostra tastiera MIDI. Una volta configurato, possiamo suonare le note sulla tastiera e vedere come gli oscillatori rispondono ai segnali CV, cambiando la loro frequenza in base alle note suonate.
+Configuriamo il modulo MIDI-to-CV per utilizzare la nostra tastiera del computer come MIDI. Una volta configurato, possiamo suonare le note sulla tastiera, di default le lettere dalla Z alla M, e vedere come gli oscillatori rispondono ai segnali CV, cambiando la loro frequenza in base alle note suonate.
+
+## LFO
+
+Ora abbiamo a tutti gli effetti un sintetizzatore! possiamo suonarlo dalla tastiera del nostro PC e cambiarne forma d'onda e le note. Aggiungiamo un po' di modulazione al nostro sintetizzatore. Per prima cosa, aggiungiamo il modulo LFO
+
+### Cos'è il Low Freqeuency Oscillator
+
+Esattamente come l'oscillatore genera onde, il low frequency oscillator genera onde a 'basse frequenze' quindi non udibili all'orecchio umano. Nonostante non possiamo sentire le frequenze possiamo comunque usare queste onde per modulare altri segnali! proviamo a collegare l'uscita dell'onda sawtooth al VCA di uno degli oscillatori. Sentiamo come ora il volume segua il ritmo della frequenza dell'oscillatore. 
+
+Con gli LFO ci sono infinite possibilità di modulazione, questo è solo uno dei modi per poter interagire con i suoni e i segnali creati
+
+
 
 ## Conclusione
 
-Ora che abbiamo aggiunto un secondo oscillatore, un filtro e un modulo MIDI-to-CV, abbiamo costruito un sintetizzatore sottrattivo completo. Possiamo sperimentare con diverse combinazioni di forme d'onda, impostazioni del filtro e modulazioni CV per creare una vasta gamma di suoni. Nel prossimo capitolo, esploreremo ulteriori moduli e tecniche per espandere ancora di più le capacità del nostro sintetizzatore modulare.
+Ora che abbiamo aggiunto un secondo oscillatore, un filtro, un modulo MIDI-to-CV e un LFO abbiamo costruito un sintetizzatore sottrattivo semplice ma completo. Possiamo sperimentare con diverse combinazioni di forme d'onda, impostazioni del filtro e modulazioni CV per creare una vasta gamma di suoni. Nel prossimo capitolo, esploreremo ulteriori moduli e tecniche per espandere ancora di più le capacità del nostro sintetizzatore modulare.

@@ -4,7 +4,7 @@ title: "Introduzione"
 permalink: /docs/1-intro
 ---
 
-# Introduzione alla sintesi e ai sintetizzatori modulari
+# Introduzione al suono e ai sintetizzatori modulari
 
 ## Introduzione
 
@@ -41,6 +41,8 @@ Se le note musicali corrispondono a delle frequenze, qual è la differenza tra l
 
 La chiave sono le armoniche: delle vere e proprie "componenti" del suono che in combinazione fra loro in diverse quantità creano suoni differenti
 
-![frequency scheme](/images/harmonics.png)
+![harmonic scheme](/images/harmonics.png)
 
-Ogni suono lo possiamo immaginare come una somma di tante onde "pure" ossia sinusoidali, tutte a frequenze diverse. La nota principale che percepiamo è detta la frequenza 'fondamentale', solitamente è anche la componente a più alta ampiezza. Tutte le altre note che compongono il suono e l'onda sonora sono le armoniche, che formano il timbro del suono. Tutte queste armoniche comunemente sono analizzate tramite lo spettro armonico. Lo spettro armonico mostra sull'asse delle X le frequenze in   
+Ogni suono lo possiamo immaginare come una somma di tante onde "pure" ossia sinusoidali, tutte a frequenze diverse. La nota principale che percepiamo è detta la frequenza 'fondamentale', solitamente è anche la componente a più alta ampiezza. Tutte le altre note che compongono il suono e l'onda sonora sono le armoniche, che formano il timbro del suono. Tutte queste armoniche comunemente sono analizzate tramite lo spettro armonico. Lo spettro armonico mostra sull'asse delle X le frequenze del suono analizzate e sull'asse delle Y l'ampiezza di queste frequenze. Ogni frequenza è quindi un'armonica, e si potrà vedere come la fondamentale sarà il picco dello spettro armonico. Operare dei cambiamenti allo spettro armonico è comunemente riferito come 'equalizzare' un suono, ossia modificare e modellare l'ampiezza delle frequenze per modificarne il timbro e la qualità.
+
+Ora che abbiamo qualche informazione basilare sul suono possiamo passare al prossimo step, l'altro segnale che attraversa i cavi patch di ogni modulare: il control voltage. A questa breve introduzione segue una guida pratica su come installare VCV Rack, e successivamente la guida per spiegare il Control Voltage farà uso di esempi pratici che potrai replicare sul tuo sintetizzatore o su VCV. 

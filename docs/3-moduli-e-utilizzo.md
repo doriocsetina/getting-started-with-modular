@@ -6,7 +6,7 @@ permalink: /docs/3-moduli-e-utilizzo
 
 # Moduli principali e loro utilizzo
 
-## Table of Contents
+## Tabella dei contenuti
 
 1. [Moduli principali e loro utilizzo](#moduli-principali-e-loro-utilizzo)
    - [Oscillatori e Forme d'Onda](#oscillatori-e-forme-donda)
@@ -68,32 +68,26 @@ Aggiungiamo un filtro passa-basso al nostro rack. Colleghiamo l'uscita del mixer
 
 ## Modulo MIDI-to-CV
 
-Ora che abbiamo i due oscillatori e il filtro vediamo come il suono che abbiamo creato diventa sempre più definito, tuttavia non abbiamo ancora controllo sulle note. Per darci il controllo diretto sulle note d
-
-### Cos'è il Volt per Ottava (V/Oct)
+Ora che abbiamo i due oscillatori e il filtro vediamo come il suono che abbiamo creato diventa sempre più definito, tuttavia non abbiamo ancora controllo sulle note. Per darci il controllo diretto sulle note dei nostri oscillatori possiamo utilizzare il modulo MIDI to CV, per convertire i tasti della nostra tastiera a frequenze specifiche, nello standard 1V/Oct.
 
 Il Volt per Ottava (V/Oct) è uno standard di controllo per sintetizzatori modulari che permette di controllare la frequenza degli oscillatori tramite una tensione di controllo. Poiché ogni informazione è passata tramite voltaggio, questo standard è stato creato per poter inviare informazioni Ogni incremento di 1 volt corrisponde a un'ottava musicale.
 
-### Aggiungere il Modulo MIDI-to-CV
+### Aggiungiamo il Modulo MIDI-to-CV
 
-Aggiungiamo un modulo MIDI-to-CV al nostro rack. Questo modulo converte i segnali MIDI da una tastiera o DAW in segnali CV che possono essere utilizzati per controllare gli oscillatori. Colleghiamo l'uscita V/Oct del modulo MIDI-to-CV all'ingresso V/Oct dei nostri oscillatori.
-
-### Configurare il Modulo MIDI-to-CV
-
-Configuriamo il modulo MIDI-to-CV per utilizzare la nostra tastiera del computer come MIDI. Una volta configurato, possiamo suonare le note sulla tastiera, di default le lettere dalla Z alla M, e vedere come gli oscillatori rispondono ai segnali CV, cambiando la loro frequenza in base alle note suonate.
+Aggiungiamo un modulo MIDI-to-CV al nostro rack. Questo modulo converte i segnali MIDI da una tastiera o DAW in segnali CV che possono essere utilizzati per controllare gli oscillatori. Colleghiamo l'uscita V/Oct del modulo MIDI-to-CV all'ingresso V/Oct dei nostri oscillatori e configuriamo il modulo MIDI-to-CV per utilizzare la nostra tastiera del computer come MIDI. Una volta configurato, possiamo suonare le note sulla tastiera, di default le lettere dalla Z alla M, e vedere come gli oscillatori rispondono ai segnali CV, cambiando la loro frequenza in base alle note suonate.
 
 ## LFO
 
 Ora abbiamo a tutti gli effetti un sintetizzatore! possiamo suonarlo dalla tastiera del nostro PC e cambiarne forma d'onda e le note. Aggiungiamo un po' di modulazione al nostro sintetizzatore. Per prima cosa, aggiungiamo il modulo LFO
 
-### Cos'è il Low Freqeuency Oscillator
-
 Esattamente come l'oscillatore genera onde, il low frequency oscillator genera onde a 'basse frequenze' quindi non udibili all'orecchio umano. Nonostante non possiamo sentire le frequenze possiamo comunque usare queste onde per modulare altri segnali! proviamo a collegare l'uscita dell'onda sawtooth al VCA di uno degli oscillatori. Sentiamo come ora il volume segua il ritmo della frequenza dell'oscillatore. 
 
 Con gli LFO ci sono infinite possibilità di modulazione, questo è solo uno dei modi per poter interagire con i suoni e i segnali creati
 
+## Visione d'insieme
+
+Ora che abbiamo aggiunto un secondo oscillatore, un filtro, un modulo MIDI-to-CV e un LFO abbiamo costruito un sintetizzatore sottrattivo semplice ma completo. Possiamo sperimentare con diverse combinazioni di forme d'onda, impostazioni del filtro e modulazioni CV per creare una vasta gamma di suoni. Sperimenta! ogni input è potenzialmente un nuovo modo per generare un nuovo suono. Non avere paura ad aggiungere nuovi moduli e collegarli fra di loro.
+
+Nei capitoli successivi vedremo con più attenzione nuovi moduli e nuove tecniche, e come possiamo utilizzare i synth modulari per esplorare suoni e processi. 
 
 
-## Conclusione
-
-Ora che abbiamo aggiunto un secondo oscillatore, un filtro, un modulo MIDI-to-CV e un LFO abbiamo costruito un sintetizzatore sottrattivo semplice ma completo. Possiamo sperimentare con diverse combinazioni di forme d'onda, impostazioni del filtro e modulazioni CV per creare una vasta gamma di suoni. Nel prossimo capitolo, esploreremo ulteriori moduli e tecniche per espandere ancora di più le capacità del nostro sintetizzatore modulare.

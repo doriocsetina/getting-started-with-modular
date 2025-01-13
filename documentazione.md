@@ -134,7 +134,55 @@ Non è previsto nessun metodo di valutazione in questo corso: la natura del cors
 
 ### 3.2.1 Struttura del corso
 
+Il corso è strutturato da 4 lezioni, tutte contenute in un unico modulo. Le lezioni si susseguono linearmente, però poiché ogni lezione possiede una tabella dei contenuti è possibile consultare le informazioni desiderate facilmente.
+
 ### 3.2.2 Storyboard 
+
+| Field       | Value                                                                 |
+|-------------|-----------------------------------------------------------------------|
+| Modulo - Lezione - Unità | Mod 1 - Introduzione - Unità 1                            |
+| Descrizione | Un'introduzione ai concetti fondamentali del suono                    |
+| Testo       | 1-intro.md                                                              |
+| Immagini    | images/amplitude.gif ; images/frequency.gif ; images/harmonics.png    |
+| Audio       | none                                                                  |
+| Video       | none                                                                  |
+| Link        | none   
+
+
+
+| Field       | Value                                                                 |
+|-------------|-----------------------------------------------------------------------|
+| Modulo - Lezione - Unità | Mod 1 - Installazione VCV - Unità 1.5                          |
+| Descrizione | Una guida all'installazione del software VCV Rack|
+| Testo       | 1.5-installazione-vcv.md                                                              |
+| Immagini    | none    |
+| Audio       | none                                                                  |
+| Video       | none                                                                  |
+| Link        | https://vcvrack.com/Rack ; https://library.vcvrack.com   
+
+
+
+| Field       | Value                                                                 |
+|-------------|-----------------------------------------------------------------------|
+| Modulo - Lezione - Unità | Mod 1 - Control Voltage - Unità 2                         |
+| Descrizione | La lezine si concentra sul control voltage e sulla manipolazione dei parametri del suono visti fin'ora   |
+| Testo       | 2-cv-manipolazione.md                                                              |
+| Immagini    | images/ondaseno.png ; images/freqandamp.png ; images/ADSR.png    |
+| Audio       | none                                                                  |
+| Video       | none                                                                  |
+| Link        | https://learningsynths.ableton.com/   
+
+
+| Field       | Value                                                                 |
+|-------------|-----------------------------------------------------------------------|
+| Modulo - Lezione - Unità | Mod 1 - Moduli e utilizzo - Unità 3                            |
+| Descrizione | Una lezione dove si approfondiscono altri moduli e si costruisce un semplice sintetizzatore sottrattivo|
+| Testo       | 3-moduli-e-utilizzo.md                                                            |
+| Immagini    | images/dueoscillatori.png ; images/filtro.png ; images/cvtomidi.png ; images/lfo.png ; images/final.png    |
+| Audio       | none                                                                  |
+| Video       | none                                                                  |
+| Link        | none   
+
 
 ### 3.2.3 Layout e navigazione
 

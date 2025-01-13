@@ -6,6 +6,13 @@ permalink: /docs/1-intro
 
 # Introduzione al suono e ai sintetizzatori modulari
 
+## Tabella dei contenuti
+- [Introduzione](#introduzione)
+- [Suono, frequenza e armoniche](#suono-frequenza-e-armoniche)
+  - [Ampiezza](#ampiezza)
+  - [Frequenza](#frequenza)
+  - [Armoniche](#armoniche)
+
 ## Introduzione
 
 ***You have the possibility with electronic music to generate any texture, in theory, and any sound, so why would any musician would limit themselves?***
@@ -27,13 +34,13 @@ Quando ascoltiamo un qualunque suono ciò che arriva materialmente alle nostre o
 
 L'ampiezza delle onde sonore è a tutti gli effetti il volume. Un'onda più ampia trasmette più energia e la sentiamo ad un volume più alto. 
 
-![amplitude scheme](/images/amplitude.gif)
+![amplitude scheme](../images/amplitude.gif)
 
 ### Frequenza
 
 La frequenza (spesso chiamata pitch) di un suono determina quanto lo percepiamo grave o acuto. A livello tecnico è il numero di vibrazioni che l'onda sonora compie in una determinata unità di tempo. Più la frequenza è alta più picchi ci saranno nella stessa unità di tempo e più acuto risulterà il suono alle nostre orecchie. Ogni nota musicale è quindi una specifica frequenza.
 
-![frequency scheme](/images/frequency.gif)
+![frequency scheme](../images/frequency.gif)
 
 ### Armoniche
 
@@ -41,7 +48,7 @@ Se le note musicali corrispondono a delle frequenze, qual è la differenza tra l
 
 La chiave sono le armoniche: delle vere e proprie "componenti" del suono che in combinazione fra loro in diverse quantità creano suoni differenti
 
-![harmonic scheme](/images/harmonics.png)
+![harmonic scheme](../images/harmonics.png)
 
 Ogni suono lo possiamo immaginare come una somma di tante onde "pure" ossia sinusoidali, tutte a frequenze diverse. La nota principale che percepiamo è detta la frequenza 'fondamentale', solitamente è anche la componente a più alta ampiezza. Tutte le altre note che compongono il suono e l'onda sonora sono le armoniche, che formano il timbro del suono. Tutte queste armoniche comunemente sono analizzate tramite lo spettro armonico. Lo spettro armonico mostra sull'asse delle X le frequenze del suono analizzate e sull'asse delle Y l'ampiezza di queste frequenze. Ogni frequenza è quindi un'armonica, e si potrà vedere come la fondamentale sarà il picco dello spettro armonico. Operare dei cambiamenti allo spettro armonico è comunemente riferito come 'equalizzare' un suono, ossia modificare e modellare l'ampiezza delle frequenze per modificarne il timbro e la qualità.
 

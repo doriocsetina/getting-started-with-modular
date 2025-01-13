@@ -6,6 +6,16 @@ permalink: /docs/2-cv-manipolazione
 
 # CV e manipolazione dei parametri del suono
 
+## Tabella dei contenuti
+
+1. [Introduzione](#introduzione)
+2. [CV e manipolazione dei parametri del suono](#cv-e-manipolazione-dei-parametri-del-suono)
+   - [Control Voltage, controllo dei parametri](#control-voltage-controllo-dei-parametri)
+   - [Breve setup di VCV](#breve-setup-di-vcv)
+   - [Primi moduli](#primi-moduli)
+     - [Oscillatore](#oscillatore)
+   - [Usiamo il Control Voltage!](#usiamo-il-control-voltage)
+
 ## Control Voltage, controllo dei parametri
 
 I suoni sono una delle cose che immediatamente ci viene in mente se cerchiamo di indovinare cosa passa attraverso i cavi di un sintetizztore modulare! Tuttavia, in quasi tutti i cavi patch di un modulare la maggior parte di questi saranno attraversati dal Control Voltage. Come si fa a controllare cosa fanno questi sintetizzatori? Il control voltage serve proprio a questo. Quando guardiamo tutti i pannelli di un sintetizzatore vediamo come questi abbiano molte manopole o 'knob' che ne gestiscono il parametro. Possiamo immaginare il CV (control voltage) come una mano invisibile che gira e gestisce le manopole per noi. Facciamo qualche esempio pratico! 
@@ -25,7 +35,7 @@ Apriamo insieme VCV Rack! La schermata iniziale ti mostrerà dei tip iniziali ed
 
 Questi sono i moduli utility, ora iniziamo a fare qualche suono e a capire cos'è il control voltage! Avranno più o meno questo aspetto:
 
-![blank setup](/images/blanksetup.png)
+![blank setup](../images/blanksetup.png)
 
 Una nota importante, vediamo come tutti i moduli hanno tendenzialmente quattro tipi di componenti:
 - gli input, rappresentati dai buchi non circondati di nero: in questi punti il segnale entra
@@ -42,7 +52,7 @@ Come abbiamo detto nel paragrafo precedente, il control voltage è come se fosse
 
 Iniziamo mettendo un oscillatore! Possiamo definirli il cuore di un sintetizzatore, poiché, appunto, oscillano, oscillando creano un'onda e quindi un suono! Cliccando con il tasto destro su uno spazio vuoto possiamo accedere alla libreria di VCV. Cerchiamo un oscillatore e clicchiamoci con il sinistro. Ora il nostro VCO è nel nostro rack! Colleghiamo il suo output 'sin' (un'onda seno) all'input dello scope, diminuiamo il frame di tempo dello scope (portando il knob time tutto a destra) e osserviamo
 
-![onda seno](/images/ondaseno.png)
+![onda seno](../images/ondaseno.png)
 
 È l'onda seno di cui abbiamo parlato nel primo capitolo! prendiamo ora un voltage controlled ampliefier e iniziamo a interagire con i concetti base di ampiezza e frequenza che abbiamo visto nel primo capitolo. 
 - Aggiungiamo un VCA
@@ -52,7 +62,7 @@ Iniziamo mettendo un oscillatore! Possiamo definirli il cuore di un sintetizzato
 
 Ti consiglio di abbassare il volume per evitare di attaccare di botto! Il tuo rack avrà ora questo aspetto
 
-![setup iniziale](/images/freqandamp.png)
+![setup iniziale](../images/freqandamp.png)
 
 Ora possiamo interagire con la frequenza e l'ampiezza dell'onda! Se alzi un poco il volume dal mixer potrai sentire l'onda seno: è un'onda pura, c'è solo l'armonica fondamentale agli hertz che puoi vedere hoverando il mouse sul grande knob della frequenza. Muovendo Il knob della frequenza vedrai sullo scope che le onde si allargano o si stringono, e sentirai come il suono diventa più grave o più acuto! Allo stesso tempo, il VCA è l'amplificatore, che gestisce il volume o l'ampiezza dell'onda. Abbassandolo o alzandolo vedrai come l'onda diventa più o meno alta e il volume farà la stessa cosa. 
 
@@ -60,7 +70,7 @@ Ora possiamo interagire con la frequenza e l'ampiezza dell'onda! Se alzi un poco
 
 Ora che abbiamo un oscillatore, perché non controllarlo senza muovere i parametri manualmente? È qui che entra in gioco il control voltage! Aggiungiamo un modulo ADSR, anche chiamato Envelope o inviluppo.
 
-![ADSR](/images/ADSR.png)
+![ADSR](../images/ADSR.png)
 
 
 ADSR sta per Attack - Decay - Sustain - Release. Di fatto questo modulo è un generatore di onde, e ADSR sono i parametri che puoi gestire dell'onda:
